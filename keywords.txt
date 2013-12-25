@@ -1,0 +1,37 @@
+#######################################
+# Syntax Coloring Map for MCP4551
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MCP4551	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+testConnection	KEYWORD2
+setWiper	KEYWORD2
+incWiper	KEYWORD2
+decWiper	KEYWORD2
+getWiper	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MCP4551_DEFAULT_ADDRESS	LITERAL1
+MCP4551_ADDRESS_A0_VCC	LITERAL1
+MCP4551_ADDRESS_A0_GND	LITERAL1
+MCP4551_CMD_WRITE	LITERAL1
+MCP4551_CMD_INC	LITERAL1
+MCP4551_CMD_DEC	LITERAL1
+MCP4551_CMD_READ	LITERAL1
+MCP4551_RA_WIPER	LITERAL1
+MCP4551_RA_TCON	LITERAL1
+MCP4551_WIPER_MID	LITERAL1
+MCP4551_WIPER_A	LITERAL1
+MCP4551_WIPER_B	LITERAL1
