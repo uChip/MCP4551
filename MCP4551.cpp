@@ -37,7 +37,7 @@ MCP4551::MCP4551(uint8_t address) {
  * these same values since a reset did not necessarily restart the device.
  */
 void MCP4551::begin() {
-  setTCON(MCP4551_TCON_ALL_EN);	// enable all functions
+  //setTCON(MCP4551_TCON_ALL_EN);	// enable all functions
   setWiper(MCP4551_WIPER_MID);	// set to mid scale
 }
 
